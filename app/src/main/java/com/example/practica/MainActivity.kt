@@ -3,7 +3,7 @@ package com.example.practica
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.commit
-import com.example.practica.ui.user.UserFragment
+import com.example.practica.ui.main.RosterFragment
 import dagger.hilt.android.AndroidEntryPoint
 
 
@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         if(savedInstanceState == null){
             supportFragmentManager.commit {
-                replace(R.id.container, UserFragment.newInstance())
+                add(R.id.container, RosterFragment.newInstance())
             }
         }
     }

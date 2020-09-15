@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="error_user_age">Error Int</string>
+    <string name="error_user_name">Error Name</string>
+    <string name="msg_user_added">Added: %1s</string>
+    <string name="msg_user_updated">User: %1s updated</string>
+    <string name="msg_user_deleted">User: %1s has deleted</string>
+    <string name="dialog_title">Delete %1s?</string>
+    <string name="dialog_subtitle">Delete</string>
+    <string name="delete_item">Delete</string>
+    <string name="no_delete_item">Abort</string>
+    <string name="negative_btn">No</string>
+    <string name="positive_btn">Yes</string>
 </resources>

@@ -1,7 +1,7 @@
 package com.example.practica.di
 
 import com.example.practica.repository.UserRepositoryImp
-import com.example.practica.repository.contract.UserRepository
+import com.example.practica.repository.UserRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -15,5 +15,5 @@ abstract class UserRepositoryModule{
     @Singleton
     @Binds
     abstract fun provideUserRepository(store: UserRepositoryImp): UserRepository
-}
 
+}
